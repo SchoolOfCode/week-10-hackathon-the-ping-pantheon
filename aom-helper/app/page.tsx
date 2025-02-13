@@ -1,10 +1,17 @@
-import Link from "next/link"
+import Link from "next/link";
+import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="text-center">
+    <div className="flex flex-col items-center justify-center min-h-screen text-center">
       <h1 className="text-4xl font-bold mb-4 text-primary">Age of Mythology Guide</h1>
       <p className="text-xl mb-8 text-white">Explore the heroes and units of Age of Mythology</p>
+      <Image 
+      src="/images/Arkantos.png" 
+      alt="Arkantos" 
+      width={300}
+      height={300} 
+    />
       <div className="flex justify-center space-x-4">
         <Link
           href="/heroes"
