@@ -8,7 +8,7 @@ export default function Home() {
       <p className="text-xl mb-8 text-white">Explore the heroes and units of Age of Mythology</p>
       <Image 
       src="/images/Arkantos.png" 
-      alt="Arkantos" 
+      alt="The Hero Arkantos" 
       width={300}
       height={300} 
     />
